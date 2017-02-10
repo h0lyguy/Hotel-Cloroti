@@ -1,0 +1,43 @@
+#//ajout clients aléatoirement : generatedata.com
+
+INSERT INTO `CLIENT` (`ID_Client`,`NomClient`,`PrenomClient`,`AdresseClient`,`TelephoneClient`,`MailClient`,`NumeroCB`,`MotDePasse`) VALUES (2,"Ortiz","Olivia","734-4056 Egestas Av.","04 17 15 22 90","tempor.augue.ac@montesnascetur.com","3771648916615395","PIH57GTX2IA"),(3,"Scott","Cedric","Appartement 251-2983 Orci. Rd.","08 55 18 31 77","dui.nec@tortor.net","0410528770088371","BOK98STI8MK"),(4,"Calderon","Gwendolyn","CP 654, 2238 Porttitor Ave","06 75 19 88 76","nibh.Aliquam@tempor.co.uk","3835989482297549","TFX93PXW1SS"),(5,"Mathis","Stella","CP 558, 1913 Est. Chemin","06 12 53 39 55","in@justoPraesentluctus.ca","4694683542772506","LHT38HDA5PT"),(6,"Bean","Amethyst","850-1148 Nam Chemin","05 69 97 86 69","tempor.augue.ac@Namnullamagna.org","4248107664043231","FNH86VZB6SL"),(7,"Carroll","Stacy","CP 296, 6227 Sapien. Avenue","04 19 63 66 93","dis.parturient@mollis.org","3002287314652489","RLV92ZHK6KC"),(8,"Craig","Katelyn","CP 141, 8977 In Rd.","01 03 43 66 69","tincidunt.nibh@etipsum.co.uk","1996076681724159","VAC60KHY3YL"),(9,"Hughes","Imelda","416-7353 Augue, Av.","03 38 43 51 17","eget@nectempus.edu","2982945844470136","EQP46FIR8PV"),(10,"Davidson","Iona","828-2301 Erat Route","02 89 10 81 97","risus@parturientmontes.org","8723951852714810","HWQ31IWC0XM"),(11,"Bradshaw","Anastasia","CP 166, 2568 Ornare, Rue","06 28 40 47 16","Curabitur@habitantmorbitristique.org","8645652557072807","OOK84VOK2EV"),(12,"Potter","Avye","CP 866, 847 Nunc Impasse","05 59 58 68 45","congue@amet.co.uk","0309351686241020","AHQ79DFQ0EC"),(13,"Fry","Hammett","Appartement 693-5019 Non Rd.","03 05 79 16 75","enim.Mauris.quis@ultricessitamet.ca","5726566765403599","NLQ96LJR8EB"),(14,"Hooper","Cassidy","Appartement 159-6697 At, Avenue","02 23 53 43 44","ac.sem@sem.org","6290616234025630","LHX73XTT8QW"),(15,"Conway","Maryam","102-3372 Eu Ave","03 69 34 96 16","et.commodo.at@duinec.ca","2730417544315042","PZZ48PTZ3FU"),(16,"Randall","Alec","790-1069 Eu Av.","03 98 03 59 27","nonummy.ultricies.ornare@ipsumprimisin.net","3407451417703145","BBE63NPM7NS"),(17,"David","Armand","Appartement 303-265 Vulputate Impasse","05 84 84 09 31","ullamcorper@suscipitestac.edu","4569026261975046","FOD76VDH7DO"),(18,"Clemons","Kimberley","Appartement 834-6762 Auctor Chemin","09 22 72 67 28","risus.quis.diam@semegestas.net","1148564696508291","MLA90VZI9TH"),(19,"Pugh","Tucker","Appartement 715-8748 Faucibus Route","05 35 69 14 53","magna.Cras.convallis@NullamenimSed.co.uk","8119581637095122","SVI70IHL5OC"),(20,"Mendez","Reed","Appartement 732-7719 Cursus Chemin","04 71 81 24 23","at.sem@at.org","0034447222587848","VGN38CKM8IL"),(1,"Tate","Xavier","6228 Metus Chemin","09 93 72 75 47","ac.turpis@orciPhasellus.edu","8824769046975968","AGG42TUB6ZW");
+
+#adresse mail == @cloroti.com
+
+#//n°téléphone :
+
+INSERT INTO `CLIENT` (`TelephoneClient`) VALUES ("08 21 37 74 24"),("01 27 02 35 97"),("04 01 93 44 01"),("02 50 43 61 78"),("03 03 42 18 59"),("05 07 25 08 84"),("04 27 89 64 04"),("06 33 56 02 57"),("08 24 57 07 90"),("09 47 57 97 48"),("03 70 09 26 48"),("03 70 45 81 86"),("05 77 57 28 08"),("01 95 40 82 29"),("04 94 17 31 65"),("02 58 31 97 12"),("07 90 67 40 82"),("06 93 00 24 71"),("04 97 52 59 54"),("02 74 81 74 35");
+
+
+
+#//Ajout CHAMBRE NON COMPLET
+
+INSERT INTO `CHAMBRE` (`NumeroChambre`,`Capacite`,`Description`,`TypeChambre`,`PrixChambre`) VALUES (1,2,"MiniBar, Internet, ","Luxe",0),(2,4,", Internet, TV","Buisness",0),(3,2,"Rangement, Canapé Doux, Balcon","Luxe",0),(4,3,"TV, Balcon, Canapé Doux","Economique",0),(5,5,"Salon, Rangement, Internet","Economique",0),(6,2,"Canapé Doux, TV, Balcon","Luxe",0),(7,1,"Balcon, , Salon","Economique",0),(8,3,"TV, Salon, Rangement","Luxe",0),(9,3,"Internet, MiniBar, ","Buisness",0),(10,5,"MiniBar, Rangement, ","Luxe",0),(11,4,"Internet, Balcon, Canapé Doux","Economique",0),(12,3,"Internet, Canapé Doux, ","Economique",0),(13,2,", Canapé Doux, Rangement","Buisness",0),(14,4,"Salon, MiniBar, Canapé Doux","Luxe",0),(15,5,", MiniBar, Internet","Economique",0),(16,2,"Canapé Doux, Rangement, ","Buisness",0),(17,3,"Rangement, TV, Internet","Luxe",0),(18,2,"Balcon, Rangement, MiniBar","Luxe",0),(19,1,"MiniBar, TV, ","Economique",0),(20,1,"Balcon, Canapé Doux, MiniBar","Luxe",0),(21,4,"Internet, , Rangement","Buisness",0),(22,1,"Rangement, TV, Salon","Buisness",0),(23,2,"TV, Canapé Doux, Rangement","Luxe",0),(24,2,"Balcon, TV, ","Luxe",0),(25,3,"TV, Canapé Doux, Internet","Luxe",0),(26,5,"Canapé Doux, Internet, MiniBar","Luxe",0),(27,1,"Balcon, , Rangement","Buisness",0),(28,5,"MiniBar, Balcon, ","Economique",0),(29,4,"Rangement, MiniBar, Balcon","Economique",0),(30,1,"Canapé Doux, , Internet","Economique",0),(31,5,"MiniBar, TV, Internet","Luxe",0),(32,4,"Rangement, , TV","Luxe",0),(33,4,"Rangement, MiniBar, Canapé Doux","Economique",0),(34,5,"Internet, , Rangement","Buisness",0),(35,3,"Rangement, , Internet","Luxe",0),(36,2,"Canapé Doux, Rangement, Balcon","Buisness",0),(37,4,", Canapé Doux, MiniBar","Buisness",0);
+
+
+#//Ajout Spécifique à la CHAMBRE
+UPDATE `CHAMBRE` SET `Description` = 'MiniBar, Sauna, Balcon, ', `PrixChambre` = '240' WHERE `CHAMBRE`.`NumeroChambre` = 1;
+UPDATE `CHAMBRE` SET `Description` = 'TV, Internet', `PrixChambre` = '50' WHERE `CHAMBRE`.`NumeroChambre` = 2;
+UPDATE `CHAMBRE` SET `Description` = 'Internet, Salon, TV, Cinéma, Machine POP-CORN', `PrixChambre` = '200' WHERE `CHAMBRE`.`NumeroChambre` = 3;
+UPDATE `CHAMBRE` SET `PrixChambre` = '65' WHERE `CHAMBRE`.`NumeroChambre` = 4;
+UPDATE `CHAMBRE` SET `Description` = 'Balcon, Canapé lit, Salon', `PrixChambre` = '100' WHERE `CHAMBRE`.`NumeroChambre` = 5;
+UPDATE `CHAMBRE` SET `Description` = 'Rangement, Baignoir à jets, MiniBar', `PrixChambre` = '240' WHERE `CHAMBRE`.`NumeroChambre` = 6;
+UPDATE `CHAMBRE` SET `Description` = 'Internet, Sauna, TV', `PrixChambre` = '200' WHERE `CHAMBRE`.`NumeroChambre` = 7;
+UPDATE `CHAMBRE` SET `Description` = 'Salon, Balcon, Bureau Fonctionnel', `PrixChambre` = '82' WHERE `CHAMBRE`.`NumeroChambre` = 8;
+UPDATE `CHAMBRE` SET `Description` = 'Salon, Lit de princesse, Terrasse vue sur mer', `PrixChambre` = '200' WHERE `CHAMBRE`.`NumeroChambre` = 9;
+UPDATE `CHAMBRE` SET `Description` = 'Theme Chasse', `PrixChambre` = '350' WHERE `CHAMBRE`.`NumeroChambre` = 10;
+
+
+
+
+
+
+
+
+#//Ajout SERVICE
+
+INSERT INTO `SERVICE` (`ID_Service`,`NomService`,`NumeroService`) VALUES (1,"Secretaire","02 62 77 52 75"),(2,"Sécurité","04 03 83 92 72"),(3,"Technicien","02 08 66 61 56"),(4,"Sécurité","06 57 57 39 76"),(5,"Stewart","07 23 25 53 37"),(6,"Directeur","04 05 79 90 10"),(7,"Service clientèle","01 05 28 17 97"),(8,"Stewart","06 56 52 58 10"),(9,"Stewart","04 49 72 83 16"),(10,"Ménage","01 81 74 52 04"),(11,"Ménage","07 84 79 07 94"),(12,"Ménage","03 58 77 64 55"),(13,"Ménage","02 45 37 63 64"),(14,"Ménage","09 53 04 79 47"),(15,"Ménage","04 39 28 67 55"),(16,"Comptable","04 44 94 72 74"),(17,"Ménage","02 93 79 73 52"),(18,"Ménage","08 14 86 16 94"),(19,"Service clientèle","02 85 59 07 49"),(20,"Service clientèle","03 73 05 79 21"),(21,"Ménage","09 66 57 83 68"),(22,"Ménage","09 18 79 33 32");
+
+
+#n° tel des employés == 06 21 45 xx xx
+
